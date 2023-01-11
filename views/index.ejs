@@ -1,0 +1,34 @@
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+
+  <body>
+    <%- include("./partials/nav.ejs") %>
+
+    <div class="recipes content">
+      <h2>Søk etter individuelle reinsdyr, beiteområder eller finn informasjon om eiere</h2>
+    </div>
+
+    <form id="input">
+      <input type="text" name="input"/>
+      <button type="submit" class="btn btn-success">Søk i registeret</button>
+    </form>
+
+    <div class="eier result" id="eier">
+
+    </div>
+
+    <div class="flokk result" id="flokk">
+      
+    </div>
+
+    <div class="reinsdyr result" id="reinsdyr">
+      
+    </div>
+
+    <div class="beite result" id="beite">
+      
+    </div>
+
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>
